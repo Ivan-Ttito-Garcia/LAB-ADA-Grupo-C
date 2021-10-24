@@ -13,7 +13,7 @@ public class TwoSum {
 	 posicion en el arreglo suman 10
 	 
 	 En el algoritmo podemos apreciar un for anidado lo que
-	 nos dara una complejidad de n^2
+	 nos dara una complejidad de O(n^2)
 	 */
 	public static boolean twoSum(int[] arr) {
 		for(int i = 0 ; i < arr.length ; i++)

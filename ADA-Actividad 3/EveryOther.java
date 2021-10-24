@@ -11,7 +11,7 @@ public class EveryOther {
 	 Metodo que muestra la suma de los numeros de indice par
 	 con cada uno de los elementos del arreglo.
 	 
-	 Dado que contiene un for anidado la complejidad es de n^2
+	 Dado que contiene un for anidado la complejidad es de O(n^2)
 	 */
 	public static void everyOther(int[] arr) {
 		for(int i = 0 ; i < arr.length ; i++)
@@ -19,9 +19,6 @@ public class EveryOther {
 				for(int j = 0 ; j< arr.length ; j++)
 					System.out.println(arr[i]+arr[j]);
 				System.out.println();
-			}
-		
-				
-		
+			}			
 	}
 }

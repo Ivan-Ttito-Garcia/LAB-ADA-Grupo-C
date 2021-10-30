@@ -14,8 +14,8 @@ public class Ejercicio7_Logaritmica {
 		 *  i(final) = 2 ^ k
 		 *  Para salir del for, i >= n; reemplazando:
 		 *  =>		2 ^ k >= n, aplicando logaritmos:
-		 *  =>		k >= log 2 (n)
-		 *  Entonces su comlpejidad sería de        O(log 2 (n))
+		 *  =>		k >= log_2(n)
+		 *  Entonces su comlpejidad sería de        O(log_2(n))
 		 *  								 (logaritmo en base 2 de n)
 		 */
 		

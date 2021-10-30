@@ -16,8 +16,8 @@ public class Ejercicio8_Logaritmica {
 		 *  Para salir del for, i < 1, reemplazando:
 		 *  =>    n / (2 ^ k) < 1 
 		 *  =>    n < 2 ^ k
-		 *  =>    log 2 (n) < k
-		 *  Entonces su comlpejidad sería de        O(log 2 (n))
+		 *  =>    log_2(n) < k
+		 *  Entonces su comlpejidad sería de        O(log_2(n))
 		 *  								 (logaritmo en base 2 de n)
 		 */
 		

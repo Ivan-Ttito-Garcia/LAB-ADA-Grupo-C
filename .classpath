@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="ADA-Actividad 1"/>
+	<classpathentry kind="src" path="ADA-Actividad 2"/>
+	<classpathentry kind="src" path="ADA-Actividad 3"/>
+	<classpathentry kind="src" path="ADA-Actividad 5  26-10-2021"/>
+	<classpathentry kind="src" path="ADA-Actividad 6  02-11-2021"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

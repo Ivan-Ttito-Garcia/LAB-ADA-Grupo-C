@@ -3,11 +3,16 @@ public class BinarySearch_P2_MayorIgual {
 	
 	public static void main(String[] arg) {
 		
+		//CASO DE PRUEBA
 		int[] arr = {2,5,9,11,15,20,32,41,45,50,55,61,80};
 		System.out.println(PrimerMayorOIgual(arr, 25));
 		
 	}
 	
+	/*
+	 * Algoritmo que encuentra el primer valor mayor o
+	 * igual que x, haciendo uso de la busqueda binaria
+	 */
 	public static int PrimerMayorOIgual(int[] arr, int targed) {
 		
 		int l = 0;

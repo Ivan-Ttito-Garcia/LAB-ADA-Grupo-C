@@ -6,8 +6,10 @@ public class Backspace {
 		
 		Deque<String> stack = new ArrayDeque<String>();
 		
+		//Caso de prueba
 		String input = "abc#de##f#ghi#jklmn#op#";
 		
+		//Implementacion del algoritmo...
 		for(int i = 0 ; i < input.length() ; i++) {
 			
 			String x = String.valueOf(input.charAt(i));
@@ -15,12 +17,15 @@ public class Backspace {
 			if(x.contentEquals("#"))
 				stack.removeLast();
 			else
-				stack.offer(x);
+				stack.offerLast(x);
 			
 		}
 		
+		System.out.print("Output = ");
+		
+		//Resultado
 		while(!stack.isEmpty())
-			System.out.print(stack.poll());
+			System.out.print(stack.pollFirst());
 		
 	}
 }

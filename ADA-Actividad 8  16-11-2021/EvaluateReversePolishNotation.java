@@ -5,6 +5,7 @@ public class EvaluateReversePolishNotation {
 	public static void main(String[] arg) {
 		
 		Deque<String> stack = new ArrayDeque<String>();
+		
 		//String[] aux = {"4","13","5","/","+"};
 		//String[] aux = {"2","1","+","3","*"};
 		String[] aux = {"10","6","9","3","+","-11","*","/","*","17","+","5","+"};
@@ -13,18 +14,7 @@ public class EvaluateReversePolishNotation {
 			stack.push(x);
 			evaluar(stack);
 		}
-		/*
-		stack.push("4");
-		evaluar(stack);
-		stack.push("13");
-		evaluar(stack);
-		stack.push("5");
-		evaluar(stack);
-		stack.push("/");
-		evaluar(stack);
-		stack.push("+");
-		evaluar(stack);
-		*/
+		
 		
 		int resultado = Integer.parseInt(stack.pop());
 		

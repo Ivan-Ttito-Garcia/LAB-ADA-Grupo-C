@@ -14,7 +14,7 @@ public class NumberOfLongestIncreasing {
 		if(length == 0)
 			return 0;
 		
-		int max = 0;
+		int max = 1;
 		
 		int[] registro = new int[length];
 		
